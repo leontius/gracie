@@ -502,10 +502,15 @@
             <id>maven-public</id>
             <name>maven-public</name>
             <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
-            <releases>
+            <snapshots>
                 <enabled>true</enabled>
                 <updatePolicy>always</updatePolicy>
-            </releases>
+            </snapshots>
+        </repository>
+        <repository>
+            <id>maven-public</id>
+            <name>maven-public</name>
+            <url>http://www.geexfinance.cn:8081/maven/repository/maven-public/</url>
             <snapshots>
                 <enabled>true</enabled>
                 <updatePolicy>always</updatePolicy>
